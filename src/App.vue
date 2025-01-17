@@ -16,9 +16,5 @@ export default {
 </script>
 
 <template>
-  <div class="dp-flex gap-2 p-3">
-    <span @click="go('/')" clickable> ROUTE </span>
-    <span @click="go_outwards('https://github.com/Fysheep')" clickable> NEW TAB </span>
-  </div>
   <RouterView />
 </template>
