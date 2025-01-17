@@ -9,9 +9,18 @@ body {
 }
 
 body,
-#app,
-main {
+#app {
   min-height: 100vh;
+}
+
+body,
+#app {
+  max-height: 100vh;
+}
+
+.expand-screen{
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 body * {

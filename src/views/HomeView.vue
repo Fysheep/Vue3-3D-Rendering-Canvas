@@ -17,7 +17,7 @@ export default {
 </script>
 
 <template>
-  <main class="dp-flex fd-c gap-3 p-3">
+  <main class="dp-flex fd-c expand-screen gap-3 p-3">
     <h1 class="text-center">3D Canvas</h1>
     <RendererComponent :data="world"/>
   </main>
